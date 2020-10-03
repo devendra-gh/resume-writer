@@ -1,11 +1,11 @@
 import React from 'react';
+import { PDFViewer } from '@react-pdf/renderer';
+import ResumeWriter from './ResumeWriter';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>test</h1>
-    </div>
-  );
-}
+const App = () => (
+  <PDFViewer width="100%" height="100%" style={{ border: 'none' }}>
+    <ResumeWriter />
+  </PDFViewer>
+);
 
 export default App;
