@@ -1,24 +1,21 @@
 import React from 'react';
 import { View, Text } from '@react-pdf/renderer';
-
 import Title from '../common/Title';
-import { common } from '../../assets/styles';
+import styles from '../../assets/styles';
 
 const InterestList = ({ item }) => {
     return (
-        <View>
-            <Text style={common.text}>{item}</Text>
-        </View>
+        <Text>{item}</Text>
     );
 };
 
 const Interest = ({ data: { title, list } }) => (
-    <>
-        <View style={common.row}>
+    <View style={styles.section}>
+        <View>
             <Title title="heading">{title}</Title>
         </View>
-        <View style={common.row}>
-            <View style={common.interestBorder}>
+        <View>
+            <View style={styles.grey_border}>
                 {list.map((item) => (
                     <InterestList
                         key={title}
@@ -27,7 +24,7 @@ const Interest = ({ data: { title, list } }) => (
                 ))}
             </View>
         </View>
-    </>
+    </View>
 );
 
 export default Interest;

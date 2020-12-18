@@ -2,45 +2,50 @@ import React from 'react';
 import { Document, Page, View } from '@react-pdf/renderer';
 
 import './assets/fonts';
-import { common } from './assets/styles';
+import styles from './assets/styles';
 import user from './assets/user';
 
-import Profile from './components/Profile';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Skills from './components/Skills';
-
-import Project from './components/Project';
-import Language from './components/Language';
-import Interest from './components/Interest';
+import {
+    Profile,
+    Experience,
+    Education,
+    Skills,
+    Project,
+    Language,
+    Interest
+} from './components';
 
 const Resume = (props) => {
     const { profile, experience, education, skills, project, language, interest } = user;
 
     return (
-        <Page {...props} style={common.page}>
+        <Page {...props} style={styles.page}>
             <Profile data={profile} />
-            <View style={common.container}>
-                <View style={common.colWidth}>
-                    <Experience data={experience} />
-                    <Education data={education} />
-                    <Skills data={skills} />
+            <View style={styles.container}>
+                <View style={styles.col_50}>
+                    <View style={styles.pd_l_35}>
+                        <Experience data={experience} />
+                        <Education data={education} />
+                        <Skills data={skills} />
+                    </View>
                 </View>
-                <View style={common.colWidth}>
-                    <Project data={project} />
-                    <Language data={language} />
-                    <Interest data={interest} />
+                <View style={styles.col_50}>
+                    <View style={styles.col}>
+                        <Project data={project} />
+                        <Language data={language} />
+                        <Interest data={interest} />
+                    </View>
                 </View>
             </View>
-        </Page>
+        </Page >
     )
 }
 
 const ResumeWriter = () => (
     <Document
-        author="Luke Skywalker"
-        keywords="awesome, resume, start wars"
-        subject="The resume of Luke Skywalker"
+        author="Devendra Madheshiya"
+        keywords="Resume writing"
+        subject="Resume writing"
         title="Resume"
     >
         <Resume size={[892, 1263]} />

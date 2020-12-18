@@ -2,35 +2,49 @@ import React from 'react';
 import { Text, View } from '@react-pdf/renderer';
 
 import Title from '../common/Title';
-import List, { Item } from '../common/List';
-import { project as styles } from '../../assets/styles';
+import styles from '../../assets/styles';
 
 const ProjectEntry = ({ project, details, technologies, responsibility, dateFrom, dateTo }) => {
     return (
-        <View style={styles.lists}>
-            <Title title="primary">{project}</Title>
-            <Text>{`${dateFrom} - ${dateTo}`}</Text>
-            <Text style={styles.details}>{details}</Text>
-            <Text style={styles.list}>{`Technologies: ${technologies}`}</Text>
-            <Text style={styles.list}>{`Responsibility: ${responsibility}`}</Text>
-        </View>
+        <>
+            <View style={styles.section4}>
+                <Title title="primary_heading">{project}</Title>
+                <Text>{`(${dateFrom} - ${dateTo})`}</Text>
+            </View>
+
+            <View style={styles.section2}>
+                <Text>{details}</Text>
+            </View>
+
+            <View style={styles.pd_t_5}>
+                <Title title="primary_title">Technologies:</Title>
+                <Text>{technologies}</Text>
+            </View>
+
+            <View style={styles.pd_t_5}>
+                <Title title="primary_title">Responsibility:</Title>
+                <Text>{responsibility}</Text>
+            </View>
+        </>
     );
 };
 
 const Project = ({ data: { title, list } }) => (
-    <View style={styles.container}>
-        <Title title="heading">{title}</Title>
-        {list.map(({ project, details, technologies, responsibility, dateFrom, dateTo }) => (
-            <ProjectEntry
-                key={project + dateFrom}
-                project={project}
-                details={details}
-                technologies={technologies}
-                responsibility={responsibility}
-                dateFrom={dateFrom}
-                dateTo={dateTo}
-            />
-        ))}
+    <View style={styles.section}>
+        <View>
+            <Title title="heading">{title}</Title>
+        </View>
+
+        <View style={styles.col}>
+            {list.map((props, index) => (
+                <View style={index > 0 && styles.pd_t_20}>
+                    <ProjectEntry
+                        key={`${props.project}`}
+                        {...props}
+                    />
+                </View>
+            ))}
+        </View>
     </View>
 );
 

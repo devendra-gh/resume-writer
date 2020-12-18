@@ -18,6 +18,7 @@ export default {
                 dateFrom: '12/2018',
                 dateTo: 'Present',
                 description: 'An international IT organization specialized in Continuous Delivery & DevOps, Agile Consulting, Enterprise Web Apps, Test Automation.',
+                achievementTitle: "Tasks/Achievements",
                 achievements: [
                     'Knowledge in Digital transformation and e-Commerce Project',
                     'Knowledge of Node JS, MongoDB, JS Technologies (React JS + Redux) HTML, CSS',
@@ -32,6 +33,7 @@ export default {
                 dateFrom: '11/2017',
                 dateTo: '12/2018',
                 description: 'Custom software development company that helps clients build innovative, revenue-generating software products.',
+                achievementTitle: "Tasks/Achievements",
                 achievements: [
                     'Knowledge in e-Commerce Project',
                     'Knowledge of Node JS, JS Technologies (React JS + Redux) HTML, CSS',
@@ -47,6 +49,7 @@ export default {
                 dateFrom: '06/2015',
                 dateTo: '10/2017',
                 description: 'A digital technology company that drives digital transformation',
+                achievementTitle: "Tasks/Achievements",
                 achievements: [
                     'Build reusable component for maximum utilisation',
                     'Optimize application for maximum speed, scalability, page load and page size',
@@ -63,6 +66,7 @@ export default {
                 dateFrom: '06/2013',
                 dateTo: '12/2014',
                 description: 'Software Development, Web Portals, Tech Staff Augmentation.',
+                achievementTitle: "Tasks/Achievements",
                 achievements: [
                     'Create Website as per Design and Application architecture',
                     'Follow best practices and standards for accessibility and crossbrowser compatibility',
@@ -142,27 +146,27 @@ export default {
         list: [
             {
                 title: 'Agile Methodologies, JIRA',
-                rate: 4
+                point: 1
             },
             {
                 title: 'JavaScript, jQuery',
-                rate: 4
+                point: 2
             },
             {
                 title: 'ReactJS + Redux, AngularJS',
-                rate: 4
+                point: 3
             },
             {
                 title: 'Node JS, MongoDB',
-                rate: 3
-            },
-            {
-                title: 'GIT, Webpack, Gulp, Grunt',
-                rate: 4
+                point: 4
             },
             {
                 title: 'HTML, CSS, Sass, Less, Bootstrap, Responsive, PSD\’s to HTML conversion, Photoshop, Newsletter',
-                rate: 5
+                point: 1
+            },
+            {
+                title: 'GIT, Webpack, Gulp, Grunt',
+                point: 5
             },
         ]
     },
@@ -171,11 +175,11 @@ export default {
         list: [
             {
                 title: 'English',
-                rate: 5
+                point: 4
             },
             {
                 title: 'Hindi',
-                rate: 3
+                point: 5
             },
         ]
     },

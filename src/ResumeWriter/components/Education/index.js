@@ -1,29 +1,31 @@
 import React from 'react';
-
 import { Text, View } from '@react-pdf/renderer';
 import Title from '../common/Title';
-
-import { education as styles } from '../../assets/styles';
-
+import styles from '../../assets/styles';
 
 export default ({ data: { title, list } }) => (
-  <>
-    <View style={styles.container}>
-      <Title title="heading">{title}</Title>
+  <View style={styles.section}>
+    <View>
+      <Text style={{ ...styles.squareDot, ...styles.square }} />
     </View>
-    <View style={styles.container}>
-      <View style={styles.list}>
+    <View>
+      <View>
+        <Title title="heading">{title}</Title>
+      </View>
+      <View style={styles.col}>
         {list && list.map(item => {
           return (
             <>
-              <Text style={styles.school}>{item.degree}</Text>
-              <Text style={styles.school}>{item.college}</Text>
-              <Text style={styles.degree}>{item.locaion}</Text>
-              <Text style={styles.candidate}>{`${item.dateFrom} - ${item.dateTo}`}</Text>
+              <Title title="primary_heading">{item.degree}</Title>
+              <Title title="secondary_heading">{item.college}</Title>
+              <View style={{ ...styles.section2, ...styles.blue }}>
+                <Text>{`${item.dateFrom} - ${item.dateTo}`}</Text>
+                <Text>{item.locaion}</Text>
+              </View>
             </>
           )
         })}
       </View>
     </View>
-  </>
+  </View>
 );
