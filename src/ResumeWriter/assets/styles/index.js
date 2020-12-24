@@ -205,7 +205,7 @@ const layoutStyle = {
         fontWeight: CONSTANT.REGULAR,
         fontSize: CONSTANT.FONT_SIZE,
         color: CONSTANT.BLACK,
-        padding: '50 0',
+        padding: '50 0 80',
     },
     container: {
         ...FLEX.flexRow

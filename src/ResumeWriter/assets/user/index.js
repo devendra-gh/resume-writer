@@ -1,11 +1,11 @@
 export default {
     profile: {
         name: 'Devendra Madheshiya',
-        position: 'Senior Consultant - Technology',
-        about: 'More than 7 years’ experience in Web Technology, I am passionate about technologies. I have been able to deliver a consistent approach throughout a challenging period of development',
+        position: 'Senior Consultant - Front-End Technology',
+        about: 'More than 7 years’ experience in Web Technology, I am passionate about technologies. I have been able to deliver a consistent approach throughout a challenging period of development.',
         email: 'devendramadheshiya@gmail.com',
         phones: ['+971-527131188', '+91-7011157019'],
-        location: 'Abu Dhabi, UAE',
+        location: 'Dubai, UAE',
         skype: 'devendramadheshiya'
     },
     experience: {
@@ -14,16 +14,17 @@ export default {
             {
                 position: 'Senior Consultant - Technology',
                 company: 'Xebia, Middle East',
-                location: 'Abu Dhabi, UAE',
+                location: 'Dubai, UAE',
                 dateFrom: '12/2018',
                 dateTo: 'Present',
                 description: 'An international IT organization specialized in Continuous Delivery & DevOps, Agile Consulting, Enterprise Web Apps, Test Automation.',
                 achievementTitle: "Tasks/Achievements",
                 achievements: [
-                    'Knowledge in Digital transformation and e-Commerce Project',
-                    'Knowledge of Node JS, MongoDB, JS Technologies (React JS + Redux) HTML, CSS',
+                    'Knowledge in Banking, Digital transformation and e-Commerce Project',
+                    'Knowledge of Node JS, Nest JS, Apollo GraphQL, MongoDB, JS Technologies (React JS + Redux + Context API), HTML, CSS, Material UI',
                     'Build reusable component for maximum utilisation',
-                    'Optimize application for maximum speed, scalability, page load and page size'
+                    'Optimize application for maximum speed, scalability, page load and page size',
+                    'Process flow of Scrum/Agile Methodologies'
                 ]
             },
             {
@@ -80,18 +81,29 @@ export default {
         title: 'Projects',
         list: [
             {
-                project: 'Dark Matter',
-                details: 'The DarkMatter Group exists to enable businesses and governments to become smart, safe, and cyber resilient',
-                technologies: 'Node JS, MongoDB, React JS + Redux, JavaScript, HTML, CSS',
-                responsibility: 'Reusable Component, Highly Optimized application, Cross-browser compatibility with Device and browsers',
-                dateFrom: '12/2018',
+                project: 'Mashreq Bank',
+                details: 'Mashreq Bank offers a range of banking solutions to suit your needs. Choose Mashreq for your Credit Cards, Personal Loans, Investments, Insurance and much.',
+                technologies: 'Nest JS, Apollo Graphql, JavaScript, React JS + Context API, Typescript, HTML, CSS, Material UI',
+                responsibility: 'Reusable Component, Highly Optimized application, Cross-browser compatibility with Device and browsers.',
+                location: 'Dubai, UAE',
+                dateFrom: '09/2020',
                 dateTo: 'Present',
+            },
+            {
+                project: 'TAMM (Dark Matter)',
+                details: 'The DarkMatter Group exists to enable businesses and governments to become smart, safe, and cyber resilient.',
+                technologies: 'Node JS, MongoDB, React JS + Redux, JavaScript, HTML, CSS',
+                responsibility: 'Reusable Component, Highly Optimized application, Cross-browser compatibility with Device and browsers.',
+                location: 'Abu Dhabi, UAE',
+                dateFrom: '12/2018',
+                dateTo: '08/2020',
             },
             {
                 project: 'Next Day Blinds - POS',
                 details: 'Next Day Blinds offers custom-made, premier blinds, shades, and shutters for your home. Visit a store in the DC, Maryland, and Virginia area, shop at home or online.',
                 technologies: 'Node JS, React JS + Redux, JavaScript, HTML, CSS',
-                responsibility: 'Reusable Component, Highly Optimized application, Cross-browser compatibility with Device and browsers',
+                responsibility: 'Reusable Component, Highly Optimized application, Cross-browser compatibility with Device and browsers.',
+                location: 'Noida, India',
                 dateFrom: '11/2017',
                 dateTo: '12/2018',
             },
@@ -99,15 +111,17 @@ export default {
                 project: 'HDFC MF',
                 details: 'HDFC MF is the leading mutual fund investor company in india. Explore and inverst in wide range of mutual funds with usland, and Virginia area, shop at home or online.',
                 technologies: 'React JS, JavaScript, HTML, CSS',
-                responsibility: 'Reusable Component, Highly Optimized application (Page Speed, Load, Size, etc..), Player support with all older browser, Cross-browser compatibility with all Device and browser',
+                responsibility: 'Reusable Component, Highly Optimized application (Page Speed, Load, Size, etc..), Player support with all older browser, Cross-browser compatibility with all Device and browser.',
+                location: 'Noida, India',
                 dateFrom: '06/2017',
                 dateTo: '08/2017',
             },
             {
                 project: 'Voot',
-                details: 'Watch online videos of Colors TV Serials, Movies, Kids Entertainment Shows at Voot',
+                details: 'Watch online videos of Colors TV Serials, Movies, Kids Entertainment Shows at Voot.',
                 technologies: 'React JS, JavaScript, Progressive Web App, HTML, CSS',
-                responsibility: 'Reusable Component, Offline Caching (PWA), Highly Optimized application (Page Speed, Load, Size, etc..), SEO, Analytical tools, Cross-browser compatibility with all Device and browser, Gathering information from clients',
+                responsibility: 'Reusable Component, Offline Caching (PWA), Highly Optimized application (Page Speed, Load, Size, etc..), SEO, Analytical tools, Cross-browser compatibility with all Device and browser, Gathering information from clients.',
+                location: 'Noida, India',
                 dateFrom: '08/2016',
                 dateTo: '06/2017',
             },
@@ -115,15 +129,17 @@ export default {
                 project: 'Fame.live',
                 details: 'Fame is a Live video entertainment platform. User can broadcast themselves and can see other people videos.',
                 technologies: 'Angular JS, JavaScript, HTML, CSS, Responsive',
-                responsibility: 'Reusable Component, Highly Optimized application (Page Speed, Load, Size, etc..), SEO, Analytical tools, Cross-browser compatibility with all Device and browser',
+                responsibility: 'Reusable Component, Highly Optimized application (Page Speed, Load, Size, etc..), SEO, Analytical tools, Cross-browser compatibility with all Device and browser.',
+                location: 'Noida, India',
                 dateFrom: '12/2015',
                 dateTo: '07/2016',
             },
             {
                 project: 'Kokaihop.se',
-                details: 'Kokaihop is a recipe site product where user can search any recipe gradients and post their new recipe. It is very useful for user',
+                details: 'Kokaihop is a recipe site product where user can search any recipe gradients and post their new recipe. It is very useful for user.',
                 technologies: 'JQuery, HTML, CSS, Responsive, Newsletters, PSD to HTML Conversion',
-                responsibility: 'Reusable HTML layout, Cross-browser compatibility with all Device and browser, Responsive Layout, PSD to HTML Conversion, Newsletters',
+                responsibility: 'Reusable HTML layout, Cross-browser compatibility with all Device and browser, Responsive Layout, PSD to HTML Conversion, Newsletters.',
+                location: 'Noida, India',
                 dateFrom: '06/2015',
                 dateTo: '11/2015',
             }
@@ -145,28 +161,33 @@ export default {
         title: 'Skills & Competences',
         list: [
             {
-                title: 'Agile Methodologies, JIRA',
-                point: 1
-            },
-            {
-                title: 'JavaScript, jQuery',
-                point: 2
-            },
-            {
-                title: 'ReactJS + Redux, AngularJS',
-                point: 3
-            },
-            {
-                title: 'Node JS, MongoDB',
+                title: 'Agile Methodologies, JIRA, Azure',
                 point: 4
             },
             {
-                title: 'HTML, CSS, Sass, Less, Bootstrap, Responsive, PSD\’s to HTML conversion, Photoshop, Newsletter',
-                point: 1
+                title: 'Node JS, Nest JS, MongoDB',
+                point: 3
+            },
+            {
+                title: 'JavaScript, JQuery',
+                point: 4
+            },
+            {
+                title: 'ReactJS, Redux, Context API, Apollo GraphQL, TypeScript, TDD',
+                point: 4
+            },
+            {
+                title: 'AngularJS',
+                point: 3
+            },
+
+            {
+                title: 'HTML, CSS, Sass, Less, Material UI, Bootstrap, Responsive, PSD\’s to HTML conversion, Photoshop, Newsletter',
+                point: 4
             },
             {
                 title: 'GIT, Webpack, Gulp, Grunt',
-                point: 5
+                point: 4
             },
         ]
     },

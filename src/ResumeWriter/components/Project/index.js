@@ -4,12 +4,15 @@ import { Text, View } from '@react-pdf/renderer';
 import Title from '../common/Title';
 import styles from '../../assets/styles';
 
-const ProjectEntry = ({ project, details, technologies, responsibility, dateFrom, dateTo }) => {
+const ProjectEntry = ({ project, details, technologies, responsibility, location, dateFrom, dateTo }) => {
     return (
         <>
             <View style={styles.section4}>
                 <Title title="primary_heading">{project}</Title>
-                <Text>{`(${dateFrom} - ${dateTo})`}</Text>
+                <View style={{ ...styles.section2, ...styles.blue }}>
+                    <Text>{`${location} - `}</Text>
+                    <Text>{`(${dateFrom} - ${dateTo})`}</Text>
+                </View>
             </View>
 
             <View style={styles.section2}>
