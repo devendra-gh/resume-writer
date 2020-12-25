@@ -21,7 +21,7 @@ export default {
                 achievementTitle: "Tasks/Achievements",
                 achievements: [
                     'Knowledge in Banking, Digital transformation and e-Commerce Project',
-                    'Knowledge of Node JS, Nest JS, Apollo GraphQL, MongoDB, JS Technologies (React JS + Redux + Context API), HTML, CSS, Material UI',
+                    'Knowledge of Node JS, Nest JS, Apollo GraphQL, MongoDB, JS Technologies (React JS + Redux + Context API, Material UI), HTML, CSS, SCSS',
                     'Build reusable component for maximum utilisation',
                     'Optimize application for maximum speed, scalability, page load and page size',
                     'Process flow of Scrum/Agile Methodologies'
@@ -37,7 +37,7 @@ export default {
                 achievementTitle: "Tasks/Achievements",
                 achievements: [
                     'Knowledge in e-Commerce Project',
-                    'Knowledge of Node JS, JS Technologies (React JS + Redux) HTML, CSS',
+                    'Knowledge of Node JS, JS Technologies (React JS + Redux) HTML, CSS, SCSS',
                     'Build reusable component for maximum utilisation',
                     'Optimize application for maximum speed, scalability, page load and page size',
                     'Process flow of Scrum/Agile Methodologies'
@@ -137,7 +137,7 @@ export default {
             {
                 project: 'Kokaihop.se',
                 details: 'Kokaihop is a recipe site product where user can search any recipe gradients and post their new recipe. It is very useful for user.',
-                technologies: 'JQuery, HTML, CSS, Responsive, Newsletters, PSD to HTML Conversion',
+                technologies: 'Angular JS, JQuery, HTML, CSS, Responsive, Newsletters, PSD to HTML Conversion',
                 responsibility: 'Reusable HTML layout, Cross-browser compatibility with all Device and browser, Responsive Layout, PSD to HTML Conversion, Newsletters.',
                 location: 'Noida, India',
                 dateFrom: '06/2015',
@@ -165,25 +165,24 @@ export default {
                 point: 4
             },
             {
-                title: 'Node JS, Nest JS, MongoDB',
+                title: 'ReactJS, Redux, Context API, Apollo GraphQL, Material UI, TypeScript, TDD',
+                point: 4
+            },
+            {
+                title: 'AngularJS, Angular Material',
                 point: 3
+            },
+            {
+                title: 'HTML, CSS, Sass, Less, Bootstrap, Responsive, PSD\’s to HTML conversion, Photoshop, Newsletter',
+                point: 4
             },
             {
                 title: 'JavaScript, JQuery',
                 point: 4
             },
             {
-                title: 'ReactJS, Redux, Context API, Apollo GraphQL, TypeScript, TDD',
-                point: 4
-            },
-            {
-                title: 'AngularJS',
+                title: 'Node JS, Nest JS, MongoDB',
                 point: 3
-            },
-
-            {
-                title: 'HTML, CSS, Sass, Less, Material UI, Bootstrap, Responsive, PSD\’s to HTML conversion, Photoshop, Newsletter',
-                point: 4
             },
             {
                 title: 'GIT, Webpack, Gulp, Grunt',
