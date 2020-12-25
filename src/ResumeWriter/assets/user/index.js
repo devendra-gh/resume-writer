@@ -21,7 +21,7 @@ export default {
                 achievementTitle: "Tasks/Achievements",
                 achievements: [
                     'Knowledge in Banking, Digital transformation and e-Commerce Project',
-                    'Knowledge of Angular JS 2, Angular JS 8, Angular Material, React JS + Redux + Context API, Apollo GraphQL, Material UI, Typescript, Node JS, Nest JS, HTML, CSS, SCSS, Less',
+                    'Knowledge of Angular 2, Angular 8, Angular Material, React JS + Redux + Context API, Apollo GraphQL, Material UI, Typescript, Node JS, Nest JS, HTML, CSS, SCSS, Less',
                     'Build reusable component for maximum utilisation',
                     'Optimize application for maximum speed, scalability, page load and page size',
                     'Process flow of Scrum/Agile Methodologies'
@@ -37,7 +37,7 @@ export default {
                 achievementTitle: "Tasks/Achievements",
                 achievements: [
                     'Knowledge in e-Commerce Project',
-                    'Knowledge of Angular JS 1, Angular JS 2, Angular Material, Typescript, Javascript, HTML, CSS, SCSS',
+                    'Knowledge of Angular 1, Angular 2, Angular Material, Typescript, Javascript, HTML, CSS, SCSS',
                     'Build reusable component for maximum utilisation',
                     'Optimize application for maximum speed, scalability, page load and page size',
                     'Process flow of Scrum/Agile Methodologies'
@@ -56,7 +56,7 @@ export default {
                     'Optimize application for maximum speed, scalability, page load and page size',
                     'Code handling with multiple environment',
                     'Collaboration with other team members and stakeholders',
-                    'Knowledge of Angular JS 1, Bootstrap, React JS + Redux, PWA, HTML, CSS, SCSS, Less',
+                    'Knowledge of Angular 1, Bootstrap, React JS + Redux, PWA, HTML, CSS, SCSS, Less',
                     'Tracking events with multiple Third party Tracking tools'
                 ]
             },
@@ -92,7 +92,7 @@ export default {
             {
                 project: 'TAMM (Dark Matter)',
                 details: 'The DarkMatter Group exists to enable businesses and governments to become smart, safe, and cyber resilient.',
-                technologies: 'Angular JS 2, Angular JS 8, Angular Material, JavaScript, Typescript, HTML, CSS, SCSS',
+                technologies: 'Angular 2, Angular 8, Angular Material, JavaScript, Typescript, HTML, CSS, SCSS',
                 responsibility: 'Reusable Component, Highly Optimized application, Cross-browser compatibility with Device and browsers.',
                 location: 'Abu Dhabi, UAE',
                 dateFrom: '12/2018',
@@ -101,7 +101,7 @@ export default {
             {
                 project: 'Next Day Blinds - POS',
                 details: 'Next Day Blinds offers custom-made, premier blinds, shades, and shutters for your home. Visit a store in the DC, Maryland, and Virginia area, shop at home or online.',
-                technologies: 'Angular JS 1, Angular JS 2, Angular Material, Bootstrap, JavaScript, HTML, CSS, SCSS',
+                technologies: 'Angular 1, Angular 2, Angular Material, Bootstrap, JavaScript, HTML, CSS, SCSS',
                 responsibility: 'Reusable Component, Highly Optimized application, Cross-browser compatibility with Device and browsers.',
                 location: 'Noida, India',
                 dateFrom: '11/2017',
@@ -128,7 +128,7 @@ export default {
             {
                 project: 'Fame.live',
                 details: 'Fame is a Live video entertainment platform. User can broadcast themselves and can see other people videos.',
-                technologies: 'Angular JS 1.4 and 1.5, JavaScript, HTML, CSS, Responsive',
+                technologies: 'Angular 1.4 and 1.5, JavaScript, HTML, CSS, Responsive',
                 responsibility: 'Reusable Component, Highly Optimized application (Page Speed, Load, Size, etc..), SEO, Analytical tools, Cross-browser compatibility with all Device and browser.',
                 location: 'Noida, India',
                 dateFrom: '12/2015',
@@ -137,7 +137,7 @@ export default {
             {
                 project: 'Kokaihop.se',
                 details: 'Kokaihop is a recipe site product where user can search any recipe gradients and post their new recipe. It is very useful for user.',
-                technologies: 'Angular JS 1.4, JavaScript, JQuery, HTML, CSS, Responsive, Newsletters, PSD to HTML Conversion',
+                technologies: 'Angular 1.4, JavaScript, JQuery, HTML, CSS, Responsive, Newsletters, PSD to HTML Conversion',
                 responsibility: 'Reusable HTML layout, Cross-browser compatibility with all Device and browser, Responsive Layout, PSD to HTML Conversion, Newsletters.',
                 location: 'Noida, India',
                 dateFrom: '06/2015',
@@ -165,7 +165,7 @@ export default {
                 point: 4
             },
             {
-                title: 'AngularJS 1, AngularJS 2, AngularJS 8, Angular Material, TypeScript',
+                title: 'Angular 1, Angular 2, Angular 8, Angular Material, TypeScript',
                 point: 4
             },
             {
