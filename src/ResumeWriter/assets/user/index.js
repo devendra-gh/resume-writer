@@ -21,7 +21,7 @@ export default {
                 achievementTitle: "Tasks/Achievements",
                 achievements: [
                     'Knowledge in Banking, Digital transformation and e-Commerce Project',
-                    'Knowledge of Node JS, Nest JS, Apollo GraphQL, MongoDB, JS Technologies (React JS + Redux + Context API), HTML, CSS, Material UI',
+                    'Knowledge of Node JS, Nest JS, JS Technologies (Angular JS 1 - 8, Angular Material, React JS + Redux + Context API, Material UI, Typescript, Apollo GraphQL), HTML, CSS, SCSS, Less',
                     'Build reusable component for maximum utilisation',
                     'Optimize application for maximum speed, scalability, page load and page size',
                     'Process flow of Scrum/Agile Methodologies'
@@ -37,7 +37,7 @@ export default {
                 achievementTitle: "Tasks/Achievements",
                 achievements: [
                     'Knowledge in e-Commerce Project',
-                    'Knowledge of Node JS, JS Technologies (React JS + Redux) HTML, CSS',
+                    'Knowledge of Angular JS, Angular Material, Typescript, Javascript, HTML, CSS, SCSS',
                     'Build reusable component for maximum utilisation',
                     'Optimize application for maximum speed, scalability, page load and page size',
                     'Process flow of Scrum/Agile Methodologies'
@@ -56,7 +56,7 @@ export default {
                     'Optimize application for maximum speed, scalability, page load and page size',
                     'Code handling with multiple environment',
                     'Collaboration with other team members and stakeholders',
-                    'Knowledge of JS Technologies (React JS + Redux, Angular JS, PWA), HTML, CSS',
+                    'Knowledge of JS Technologies (Angular JS, Bootstrap, React JS + Redux, PWA), HTML, CSS, SCSS, Less',
                     'Tracking events with multiple Third party Tracking tools'
                 ]
             },
@@ -83,7 +83,7 @@ export default {
             {
                 project: 'Mashreq Bank',
                 details: 'Mashreq Bank offers a range of banking solutions to suit your needs. Choose Mashreq for your Credit Cards, Personal Loans, Investments, Insurance and much.',
-                technologies: 'Nest JS, Apollo Graphql, JavaScript, React JS + Context API, Typescript, HTML, CSS, Material UI',
+                technologies: 'Nest JS, Apollo Graphql, React JS + Context API, Material UI, JavaScript, Typescript, HTML, CSS, SCSS',
                 responsibility: 'Reusable Component, Highly Optimized application, Cross-browser compatibility with Device and browsers.',
                 location: 'Dubai, UAE',
                 dateFrom: '09/2020',
@@ -92,7 +92,7 @@ export default {
             {
                 project: 'TAMM (Dark Matter)',
                 details: 'The DarkMatter Group exists to enable businesses and governments to become smart, safe, and cyber resilient.',
-                technologies: 'Node JS, MongoDB, React JS + Redux, JavaScript, HTML, CSS',
+                technologies: 'Angular JS(1 - 8), Angular Material, JavaScript, Typescript, HTML, CSS, SCSS',
                 responsibility: 'Reusable Component, Highly Optimized application, Cross-browser compatibility with Device and browsers.',
                 location: 'Abu Dhabi, UAE',
                 dateFrom: '12/2018',
@@ -101,7 +101,7 @@ export default {
             {
                 project: 'Next Day Blinds - POS',
                 details: 'Next Day Blinds offers custom-made, premier blinds, shades, and shutters for your home. Visit a store in the DC, Maryland, and Virginia area, shop at home or online.',
-                technologies: 'Node JS, React JS + Redux, JavaScript, HTML, CSS',
+                technologies: 'Angular JS(1 - 2), Angular Material, Bootstrap, JavaScript, HTML, CSS, SCSS',
                 responsibility: 'Reusable Component, Highly Optimized application, Cross-browser compatibility with Device and browsers.',
                 location: 'Noida, India',
                 dateFrom: '11/2017',
@@ -110,8 +110,8 @@ export default {
             {
                 project: 'HDFC MF',
                 details: 'HDFC MF is the leading mutual fund investor company in india. Explore and inverst in wide range of mutual funds with usland, and Virginia area, shop at home or online.',
-                technologies: 'React JS, JavaScript, HTML, CSS',
-                responsibility: 'Reusable Component, Highly Optimized application (Page Speed, Load, Size, etc..), Player support with all older browser, Cross-browser compatibility with all Device and browser.',
+                technologies: 'React JS, Redux, JavaScript, HTML, CSS',
+                responsibility: 'Highly Optimized application (Page Speed, Load, Size, etc..), Player support with all older browser, Cross-browser compatibility with all Device and browser.',
                 location: 'Noida, India',
                 dateFrom: '06/2017',
                 dateTo: '08/2017',
@@ -128,7 +128,7 @@ export default {
             {
                 project: 'Fame.live',
                 details: 'Fame is a Live video entertainment platform. User can broadcast themselves and can see other people videos.',
-                technologies: 'Angular JS, JavaScript, HTML, CSS, Responsive',
+                technologies: 'Angular JS 1.4 - 1.5, JavaScript, HTML, CSS, Responsive',
                 responsibility: 'Reusable Component, Highly Optimized application (Page Speed, Load, Size, etc..), SEO, Analytical tools, Cross-browser compatibility with all Device and browser.',
                 location: 'Noida, India',
                 dateFrom: '12/2015',
@@ -137,7 +137,7 @@ export default {
             {
                 project: 'Kokaihop.se',
                 details: 'Kokaihop is a recipe site product where user can search any recipe gradients and post their new recipe. It is very useful for user.',
-                technologies: 'JQuery, HTML, CSS, Responsive, Newsletters, PSD to HTML Conversion',
+                technologies: 'Angular JS 1.4, JavaScript, JQuery, HTML, CSS, Responsive, Newsletters, PSD to HTML Conversion',
                 responsibility: 'Reusable HTML layout, Cross-browser compatibility with all Device and browser, Responsive Layout, PSD to HTML Conversion, Newsletters.',
                 location: 'Noida, India',
                 dateFrom: '06/2015',
@@ -165,25 +165,24 @@ export default {
                 point: 4
             },
             {
-                title: 'Node JS, Nest JS, MongoDB',
-                point: 3
+                title: 'AngularJS 1 - 8, Angular Material, TypeScript',
+                point: 4
+            },
+            {
+                title: 'ReactJS, Redux, Context API, Apollo GraphQL, Material UI, TypeScript, TDD',
+                point: 4
             },
             {
                 title: 'JavaScript, JQuery',
                 point: 4
             },
             {
-                title: 'ReactJS, Redux, Context API, Apollo GraphQL, TypeScript, TDD',
-                point: 4
+                title: 'HTML, CSS, Sass, Less, Bootstrap, Responsive, PSD\’s to HTML conversion, Photoshop, Newsletter',
+                point: 5
             },
             {
-                title: 'AngularJS',
+                title: 'Node JS, Nest JS, MongoDB',
                 point: 3
-            },
-
-            {
-                title: 'HTML, CSS, Sass, Less, Material UI, Bootstrap, Responsive, PSD\’s to HTML conversion, Photoshop, Newsletter',
-                point: 4
             },
             {
                 title: 'GIT, Webpack, Gulp, Grunt',
